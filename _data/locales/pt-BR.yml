@@ -1,5 +1,19 @@
 # Portuguese (Brazil) localization file for Chirpy theme
 
+# Menu/Tabs translations
+tabs:
+  home: Início
+  Home: Início
+  categories: Categorias
+  tags: Tags
+  archives: Arquivos
+  about: Sobre
+
+# Page titles
+page:
+  home: Início
+  Home: Início
+
 # UI Labels
 ui:
   button:
@@ -14,6 +28,8 @@ ui:
     cancel: Cancelar
   
   label:
+    home: Início
+    Home: Início
     tags: Tags
     categories: Categorias
     archives: Arquivos

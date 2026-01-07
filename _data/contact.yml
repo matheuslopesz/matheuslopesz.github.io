@@ -14,9 +14,10 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url: 'https://www.linkedin.com/in/matheuslopesz/'  # Fill with your Linkedin homepage
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# RSS removed from sidebar
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
