@@ -1,0 +1,218 @@
+# Portuguese (Brazil) localization file for Chirpy theme
+
+# UI Labels
+ui:
+  button:
+    follow: Seguir
+    subscribe: Inscrever-se
+    share: Compartilhar
+    read_more: Leia mais
+    back_to_top: Voltar ao topo
+    edit: Editar
+    delete: Excluir
+    save: Salvar
+    cancel: Cancelar
+  
+  label:
+    tags: Tags
+    categories: Categorias
+    archives: Arquivos
+    about: Sobre
+    search: Buscar
+    toc: Índice
+    reading_time: Tempo de leitura
+    words: palavras
+    minute: minuto
+    minutes: minutos
+    updated: Atualizado
+    created: Criado
+    author: Autor
+    date: Data
+    related_posts: Posts relacionados
+    recent_posts: Posts recentes
+    more_posts: Mais posts
+    no_posts: Nenhum post encontrado
+    page_not_found: Página não encontrada
+    go_home: Ir para página inicial
+    not_found: A página que você está procurando não existe ou foi movida.
+    search_placeholder: Buscar posts...
+    search_no_results: Nenhum resultado encontrado
+    search_results: Resultados da busca
+    share_on: Compartilhar no
+    copy_link: Copiar link
+    link_copied: Link copiado!
+    reading_time_less_than: Menos de 1 minuto
+    reading_time_about: Cerca de
+    reading_time_over: Mais de
+    prev_page: Página anterior
+    next_page: Próxima página
+    page: Página
+    of: de
+    posts: posts
+    post: post
+    category: categoria
+    categories: categorias
+    tag: tag
+    tags: tags
+    archive: arquivo
+    archives: arquivos
+    all_posts: Todos os posts
+    all_categories: Todas as categorias
+    all_tags: Todas as tags
+    no_category: Sem categoria
+    no_tag: Sem tag
+    comments: Comentários
+    leave_comment: Deixe um comentário
+
+# Post meta
+post:
+  date:
+    created: Criado em
+    updated: Atualizado em
+    last_modified: Última modificação
+  reading_time: Tempo de leitura
+  words: palavras
+  minute: minuto
+  minutes: minutos
+  less_than: Menos de 1 minuto
+  about: Cerca de
+  over: Mais de
+  pinned: Fixado
+  related: Posts relacionados
+  recent: Posts recentes
+  more: Mais posts
+  no_posts: Nenhum post encontrado
+  prev: Post anterior
+  next: Próximo post
+  toc: Índice
+  share: Compartilhar
+  copy_link: Copiar link
+  link_copied: Link copiado!
+  share_on: Compartilhar no
+  comments: Comentários
+  leave_comment: Deixe um comentário
+
+# Archive
+archive:
+  title: Arquivos
+  description: Todos os posts organizados por data
+  no_posts: Nenhum post encontrado
+  posts_by_date: Posts por data
+  posts_by_year: Posts por ano
+  posts_by_month: Posts por mês
+  posts_by_day: Posts por dia
+  year: ano
+  years: anos
+  month: mês
+  months: meses
+  day: dia
+  days: dias
+  all_posts: Todos os posts
+  prev_year: Ano anterior
+  next_year: Próximo ano
+  prev_month: Mês anterior
+  next_month: Próximo mês
+  prev_day: Dia anterior
+  next_day: Próximo dia
+  back_to_top: Voltar ao topo
+
+# Category
+category:
+  title: Categoria
+  description: Posts na categoria
+  no_posts: Nenhum post encontrado nesta categoria
+  posts_count: posts
+  post_count: post
+  all_categories: Todas as categorias
+  back_to_top: Voltar ao topo
+
+# Tag
+tag:
+  title: Tag
+  description: Posts com a tag
+  no_posts: Nenhum post encontrado com esta tag
+  posts_count: posts
+  post_count: post
+  all_tags: Todas as tags
+  back_to_top: Voltar ao topo
+
+# Search
+search:
+  placeholder: Buscar posts...
+  no_results: Nenhum resultado encontrado
+  results: Resultados da busca
+  results_count: resultado encontrado
+  results_count_plural: resultados encontrados
+  loading: Buscando...
+  error: Erro ao buscar
+  empty: Digite algo para buscar
+
+# 404
+not_found:
+  title: Página não encontrada
+  description: A página que você está procurando não existe ou foi movida.
+  go_home: Ir para página inicial
+  back_to_top: Voltar ao topo
+
+# Footer
+footer:
+  powered_by: "Powered by"
+  theme: "Tema"
+  license: "Licença"
+  copyright: "Copyright"
+  all_rights_reserved: "Todos os direitos reservados"
+  made_with: "Feito com"
+  by: "por"
+  and: "e"
+  hosted_on: "Hospedado em"
+
+# Date format
+date:
+  format: "%d/%m/%Y"
+  format_long: "%d de %B de %Y"
+  format_short: "%d/%m/%Y"
+  format_time: "%H:%M"
+  format_datetime: "%d/%m/%Y %H:%M"
+  format_datetime_long: "%d de %B de %Y às %H:%M"
+  months:
+    - Janeiro
+    - Fevereiro
+    - Março
+    - Abril
+    - Maio
+    - Junho
+    - Julho
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Dezembro
+  months_short:
+    - Jan
+    - Fev
+    - Mar
+    - Abr
+    - Mai
+    - Jun
+    - Jul
+    - Ago
+    - Set
+    - Out
+    - Nov
+    - Dez
+  weekdays:
+    - Domingo
+    - Segunda-feira
+    - Terça-feira
+    - Quarta-feira
+    - Quinta-feira
+    - Sexta-feira
+    - Sábado
+  weekdays_short:
+    - Dom
+    - Seg
+    - Ter
+    - Qua
+    - Qui
+    - Sex
+    - Sáb
