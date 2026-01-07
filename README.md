@@ -29,6 +29,46 @@ latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so tha
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
+### Executando com Docker
+
+Para executar o site Jekyll dentro de um container Docker:
+
+1. **Construir e iniciar o container:**
+   ```bash
+   docker compose up --build
+   ```
+   ou usando o script auxiliar:
+   ```bash
+   bash tools/docker-run.sh --build
+   ```
+
+2. **Acessar o site:**
+   O site estará disponível em `http://localhost:4000`
+
+3. **Parar o container:**
+   Pressione `Ctrl+C` ou execute:
+   ```bash
+   docker compose down
+   ```
+
+**Opções disponíveis:**
+- `docker compose up` - Inicia o servidor em modo desenvolvimento
+- `docker compose up --build` - Reconstrói a imagem antes de iniciar
+- `bash tools/docker-run.sh --build` - Usa o script auxiliar com rebuild
+- `bash tools/docker-run.sh --production` - Executa em modo produção
+
+### Executando localmente (sem Docker)
+
+1. Instale as dependências:
+   ```bash
+   bundle install
+   ```
+
+2. Execute o servidor:
+   ```bash
+   bash tools/run.sh
+   ```
+
 ## Contributing
 
 This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
