@@ -16,7 +16,7 @@ timezone: America/Sao_Paulo
 
 title: Matheus Lopes - Diário tech # the main title
 
-tagline: Um dev tentando fazer magia com tecnologia # it will display as the subtitle
+tagline: Fazendo código, otimizando fluxos de valor e derrubando muros. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Blog pessoal sobre desenvolvimento, tecnologia e experiências de um desenvolvedor apaixonado por criar soluções inovadoras.
