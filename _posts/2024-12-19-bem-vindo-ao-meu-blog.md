@@ -1,53 +1,46 @@
 ---
-title: Bem-vindo ao Meu Blog
-date: 2024-12-19 14:30:00 +0000
-categories: [Blog]
-tags: [introdução, jekyll, docker]
+title: Bem-vindo 2026 🎆🧙
+date: 2026-01-08 19:41:00 +0000
+categories: [Introduções]
+tags: [introdução]
 math: false
 mermaid: false
-pin: false
+pin: true
 ---
 
-Olá! Este é o meu primeiro post no blog usando o tema **Chirpy** para Jekyll. Estou muito animado para compartilhar conhecimento e experiências sobre desenvolvimento web, programação e tecnologia.
+2025 passou rapidinho pra mim, mal pisquei e ele evaporou. Esse ano quero 
+que seja diferente, quero ver ele passando devagar.
+No finalzinho do ano passado eu fiz alguns novos compromissos
+e escrever foi um deles. Escrever por escrever, mas também pra fazer as
+pazes com uma habilidade que em tempos de IA, tá cada vez mais precisando
+ser lapidada. Como engenheiro de software, acredito que escrever e ser 
+entendido é tão importante quanto saber a diferença backend e frontend
+quando se trabalhar com web. Nem sempre foi assim.
 
-## Sobre Este Blog
+## Iniciando o processo de fazer as pazes com escrever
+Eu gostava muito de ler quando era mais novo, mas ficção, apenas e somente.
+Eu vivia os romances na minha cabeça, cada palavra escrita, por horas. 
+Mas era leitura por lazer, quando eram leituras técnicas, especialmente da faculdade pra frente, eu passei a preferir video aulas online. 
 
-Este blog foi criado usando [Jekyll](https://jekyllrb.com/), um gerador de sites estáticos escrito em Ruby, e o tema [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy), que oferece uma experiência moderna e focada em conteúdo.
+Na minha época de vestibular, alguns canais do youtube, como o descomplica, me mostraram novas formas de aprender e nelas eu fui. Na faculdade não foi diferente, mas comecei a notar
+a diferença de esforço que era entender uma pessoa falando em aula gravada e ler as palavras no meu ritmo. Meu ritmo não é 1.5x nem 1.45x, ele é apenas o meu ritmo. 
 
-### Por que Jekyll?
+Ao longo dos anos, acumulei alguns livros comprados e herdados. Isso me deixou claro que
+não era como se eu não soubesse da existência de livros não tivesse tentado, mas eu não engatava em nada que me propunha a ler.
 
-Jekyll é uma excelente escolha para blogs e sites estáticos porque:
+Quando decidi tentar de novo, com o coração aberto e entendendo que seria diferente dessa vez, eu comecei a entender o que a leitura significava para mim. 
+Ser capaz de ditar o ritmo exato da forma que eu quero absorver algum conteúdo foi uma virada de chave para minha relação com a leitura e foi assim que esse processo de "fazer as pazes" iniciou. 
 
-- **Simplicidade**: Escreva em Markdown e o Jekyll transforma em HTML
-- **Performance**: Sites estáticos são extremamente rápidos
-- **Segurança**: Sem banco de dados ou servidor de aplicação
-- **Versionamento**: Todo o conteúdo fica no Git
-- **Gratuito**: Hospedagem gratuita no GitHub Pages
+Eu to no comecinho disso tudo, só que de cara ficou claro que eu preciso de um
+pouquinho mais: escrever. Ler é a capacidade de entender conceitos e ideias por meio de simbolos. Escrever é a capacidade de descrever conceitos e ideias com simbolos. Por muito
+pouco não temos definições iguais. 
 
-### Executando com Docker
 
-Uma das vantagens deste setup é que podemos executar tudo dentro de um container Docker, garantindo consistência entre diferentes ambientes de desenvolvimento.
 
-```bash
-docker compose up --build
-```
-
-Isso inicia o servidor Jekyll e você pode acessar o site em `http://localhost:4000`.
-
-## Próximos Passos
-
-Nos próximos posts, pretendo compartilhar:
-
-- Dicas de desenvolvimento web
-- Tutoriais sobre ferramentas e tecnologias
-- Experiências e aprendizados
-- Projetos interessantes
-
-## Conclusão
-
-Espero que você encontre conteúdo útil aqui. Sinta-se à vontade para explorar e acompanhar as próximas publicações!
+Então esse post tem o título iniciando as pazes com ler E escrever, já que eles parecem tão similares e eu já estou aqui nessa jornada, por que nao ? 
+Vocês vão me ver mais por aqui, não sei quanto exatamente, mas certamente estarei aqui. Falando sobre tecnologia e pouco de magia quem sabe. Feliz ano novo !!!
 
 ---
 
-> **Dica**: Você pode personalizar este tema editando o arquivo `_config.yml` e adicionando seus próprios posts na pasta `_posts`.
-{: .prompt-tip }
+> **Nota**: Este blog foi construído com [Jekyll](https://jekyllrb.com/) e o tema [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy). Todo o código está disponível no [GitHub](https://github.com/matheuslopesz/matheuslopesz.github.io).
+{: .prompt-info }
