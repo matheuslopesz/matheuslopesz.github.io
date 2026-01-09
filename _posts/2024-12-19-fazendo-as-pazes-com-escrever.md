@@ -1,8 +1,6 @@
 ---
 title: Bem-vindo 2026 🎆🧙
 date: 2026-01-08 19:41:00 +0000
-categories: [Introduções]
-tags: [introdução]
 math: false
 mermaid: false
 pin: true
