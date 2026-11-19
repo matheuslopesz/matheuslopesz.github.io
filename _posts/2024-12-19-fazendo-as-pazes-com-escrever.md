@@ -4,6 +4,7 @@ date: 2026-01-08 19:41:00 +0000
 math: false
 mermaid: false
 pin: true
+translation_key: bem-vindo-2026
 ---
 
 2025 passou rapidinho pra mim, mal pisquei e ele evaporou. Esse ano quero 

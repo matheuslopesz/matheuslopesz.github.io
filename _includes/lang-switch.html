@@ -1,0 +1,20 @@
+{% include translation.html %}
+
+{% if page.lang == 'en' %}
+  <blockquote class="prompt-warning ai-translation-notice">
+    <p>
+      🤖 <strong>This English version was generated with AI.</strong>
+      It was machine-translated from the original Portuguese post and may contain mistakes.
+      {% if translation %}
+        <a href="{{ translation.url | relative_url }}" hreflang="pt-BR" lang="pt-BR">Ler o original em português 🇧🇷</a>
+      {% endif %}
+    </p>
+  </blockquote>
+{% elsif translation %}
+  <blockquote class="prompt-tip lang-switch">
+    <p>
+      🇺🇸 <a href="{{ translation.url | relative_url }}" hreflang="en" lang="en">Read this post in English</a>
+      <span lang="en">(AI-generated translation)</span>
+    </p>
+  </blockquote>
+{% endif %}

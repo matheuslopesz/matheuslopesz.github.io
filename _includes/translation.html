@@ -1,0 +1,12 @@
+{% comment %}
+  Acha a outra versão (pt-BR <-> en) do post atual pelo `translation_key`.
+  Retorna em `translation` (documento ou nil).
+{% endcomment %}
+{% assign translation = nil %}
+{% if page.translation_key %}
+  {% if page.lang == 'en' %}
+    {% assign translation = site.posts | where: 'translation_key', page.translation_key | first %}
+  {% else %}
+    {% assign translation = site.en_posts | where: 'translation_key', page.translation_key | first %}
+  {% endif %}
+{% endif %}

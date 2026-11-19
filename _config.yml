@@ -86,7 +86,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: light # [light | dark]
+theme_mode: # [light | dark] (vazio = segue o sistema + botão de alternar)
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -135,6 +135,11 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
 
+# Assinatura por e-mail (Buttondown › https://buttondown.com).
+# Preencha com seu usuário do Buttondown para mostrar o formulário em /assinar/.
+newsletter:
+  buttondown: # ex.: matheuslopesz
+
 pwa:
   enabled: true # The option for PWA feature (installable)
   cache:
@@ -168,6 +173,8 @@ collections:
   tabs:
     output: true
     sort_by: order
+  en_posts: # versões em inglês dos posts, traduzidas por IA
+    output: true
 
 defaults:
   - scope:
@@ -180,6 +187,15 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: en_posts
+    values:
+      layout: post
+      lang: en
+      comments: true
+      toc: true
+      permalink: /en/posts/:name/
   - scope:
       path: _drafts
     values:
